@@ -11,7 +11,9 @@ pip3 install requirements.txt
 These command are going to activate the virtual environment and install the requirements.
 Once this process is finished, run:
 
-> flask run
+```
+flask run
+```
 
 This command will run the app and leave it available under the URL:
 http://127.0.0.1:5000/
