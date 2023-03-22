@@ -56,7 +56,7 @@ class testCart(TestCase):
 
     def test_get_cart(self):
         cart = self.create_dummy_cart()
-        url = ENDPOINT.format(cart.id)
+        url = ENDPOINT.format(cart_id=cart.id)
         response = requests.get(url)
 
         response_data = response.json()
