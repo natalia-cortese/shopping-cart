@@ -2,13 +2,16 @@
 
 Download the repository files, inside the repository folder run:
 
+```
+python3 -m venv .venv
 . .venv/bin/activate
 pip3 install requirements.txt
+```
 
-These is going to activate the virtual environment and install the requirements.
+These command are going to activate the virtual environment and install the requirements.
 Once this process is finished, run:
 
-flask run
+> flask run
 
 This command will run the app and leave it available under the URL:
 http://127.0.0.1:5000/
