@@ -1,4 +1,4 @@
-## How to run this project
+# # How to run this project
 
 Download the repository files, inside the repository folder run:
 
