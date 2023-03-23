@@ -9,8 +9,8 @@ from models.carts import CartModel
 from models.orders import OrderModel
 from sqlite.db import db
 
-ENDPOINT = "https://127.0.0.1:5000/orders/{cart_id}"
-LOGIN_ENDPOINT = "https://127.0.0.1:5000/login"
+ENDPOINT = "http://127.0.0.1:5000/orders/{cart_id}"
+LOGIN_ENDPOINT = "http://127.0.0.1:5000/login"
 
 
 class testOrder(TestCase):
